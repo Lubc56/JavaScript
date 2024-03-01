@@ -6,6 +6,13 @@ function increaseCount() {
     checkCountValue()
 }
 
+function resetFollowers() {
+    count = 0;
+    displayCount();
+    alert("Your followers were restored")
+    
+}
+
 function displayCount() {
     document.getElementById('countDisplay').innerHTML = count; // Display the count in the HTML
 }
