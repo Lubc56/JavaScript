@@ -10,7 +10,6 @@ function resetFollowers() {
     count = 0;
     displayCount();
     alert("Your followers were restored")
-    
 }
 
 function displayCount() {
